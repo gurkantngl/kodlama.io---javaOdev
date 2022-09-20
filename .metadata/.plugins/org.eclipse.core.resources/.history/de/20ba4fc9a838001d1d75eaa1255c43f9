@@ -1,0 +1,20 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 2;
+		int remainder = number % 2;
+		System.out.println(remainder);
+		boolean asalMi = true;
+		System.out.println(2%2);
+		for(int i=2; i<number; i++) {
+			if(number % i == 0) {
+				asalMi = false;
+				break;
+			}
+		}
+		System.out.println("Asal mi: " + asalMi);
+	}
+
+}
